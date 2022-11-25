@@ -1,0 +1,62 @@
+program #programa;
+
+begin
+
+    #edad := #edad; 
+    #tres := ( (10 - 5) * (89  - 100) ) >= ( #dos ) ;
+    #dos := 1;
+    // Esto es un comentario
+    #dos := #dos + 1; 
+    #tres := false;
+    #dos := #dos + 2; 
+    
+    if ( #uno > 10 ) then begin
+        input (#dos);
+    end
+    else
+    begin 
+        if ( #uno > 10 ) then begin
+            input (#dos);
+        end
+        else begin 
+            output ( #dos);
+            #tres := ( 10  * (89  - 100) ) >= ( #dos ) ;
+            repeat
+            begin
+                #dos := #dos + 2; 
+                output (#dos);
+                input ( #tres );
+            end
+            until ( #tres = true );
+            // Hay anidaciones
+        end 
+    end
+
+    repeat
+        begin
+            #dos := #dos + 2; 
+            output (#dos);
+            input ( #tres );
+        end
+    until ( #tres = true );
+    // Otro comentario más :)
+
+    while ( ( 10  * (89  - 100) ) >= ( #dos ) ) do
+    begin
+        #dos := #dos + 1; 
+        output ( #dos) ;
+        while ( #dos >  5 ) do
+        begin
+            repeat
+            begin
+                #dos := #dos + 2; 
+                output (#dos);
+                input ( #tres );
+            end
+            until ( #tres = true );
+            #dos := #dos + 1; 
+            output ( #dos) ; 
+        end
+    end
+
+end

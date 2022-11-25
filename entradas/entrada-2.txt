@@ -1,0 +1,25 @@
+program #m;
+var
+#dos : integer;
+#x,#cuatro  : boolean;
+
+begin
+#x := #xtres ==10;
+#x := 10 - (32 * 8 ) + (73 / 56) ;
+if  (#x== #y) then
+begin
+    while ( #dos<= 7) do
+    begin
+        #dos := 78 /4 ;
+    end 
+    repeat 
+    begin 
+     #dos := 78 /4 ;
+    end 
+   until (#xtres == 10 );
+end
+else 
+begin 
+  #dos := 78 /4 ;
+end
+end
