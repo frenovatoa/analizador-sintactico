@@ -113,7 +113,7 @@ CONTENIDO_ESTR_CTRL:    EXPR_ASIGN CONTENIDO_ESTR_CTRL |
                         EXPR_ASIGN |
                         ESTR_CTRL | 
                         ENTRADA |
-                        SALIDA; 
+                        SALIDA | ; 
 
 ENTRADA: pr_input parentesis_abre identificador parentesis_cierra punto_coma ;
 
